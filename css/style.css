@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+   background-color: green;
+ }
+
+
+
+ h1{
+  color: rgb(255, 255, 255);
+  background-color: green;
+  font-size: 50px;
+  padding: 30px;
+  margin: 30px;
+  border: 20px inset white;
+  text-align: center;
+}
+
+ p{
+   text-align: center;
+   font-size: 25px;
+   margin: 30px;
+   padding: 30px;
+   font-family: 'Playfair Display', serif;
+ }
+
+ h2{
+   text-align: center;
+   padding: 50px;
+ }
+
+ picture :hover{
+  animation: money 4s;
+align-items: center;
+ }
+
+ @keyframes money{
+
+  25%{
+    transform: scaleX(2);
+  }
+ }
+
+ .danger{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ }
+
+.dol{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.eur{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.realll{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.col{
+  margin-bottom: 100px;
+  text-align: center;
+  background-color: blanchedalmond;
+  font-size: 50px;
+}
+
+ footer{
+  padding: 40px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nstrs{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.colum{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: black;
+  font-size: 40px;
+  color: white;
+}
+
+.formulario{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
